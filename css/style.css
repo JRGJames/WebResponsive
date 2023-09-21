@@ -1,0 +1,55 @@
+body {
+    background-image: url(../images/back.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Roboto', sans-serif;
+    justify-content: center;
+    background-attachment: fixed ;
+}
+
+.personajes {
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: absolute;
+    align-items: stretch;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.item{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(49, 78, 104, 0.342);
+    border-radius: 30px;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    height: 250px;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+.item:hover{
+    cursor: pointer;
+}
+
+
+header {
+    left: 0;
+    top: 0;
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    background-color: rgba(49, 78, 104, 0.342);
+    color: white;
+    font-weight: 800;
+    font-size: 40px;
+    padding: 30px 0;
+}
+
+img {
+    width: 150px;
+}
